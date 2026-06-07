@@ -47,6 +47,10 @@ body {
     color: rgb(0, 140, 255);
 }
 
+.container a:hover {
+    color: rgb(179, 6, 179);
+}
+
 .container #btn {
     background-color: rgba(50, 84, 233, 0.966);
     color: white;
@@ -59,4 +63,9 @@ body {
     cursor: pointer;
     background-color: #3bc25d;
     color: white;
+}
+
+.container #error {
+    color: red;
+    margin-left: 6.5vh;
 }

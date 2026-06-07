@@ -57,3 +57,8 @@ body {
     cursor: pointer;
     background-color: rgb(96, 10, 177);
 }
+
+.container #error {
+    color: red;
+    margin-left: 6.5vh;
+}

@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
     <link rel="stylesheet" href="fp_style.css">
+    <script defer src="fp_script.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h2>Change Password</h2>
-        <form action="/index.html">
+        <form id="form" action="/index.html" method="get">
             <label for="passw1">New Password</label>
             <input type="text" name="password1" id="passw1" required>
             <label for="passw2">Confirm Password</label>
             <input type="text" name="password2" id="passw2" required>
+            <div id="error"></div>
             <input type="submit" name="submit" id="btn" value="Change my password">
         </form>
     </div>
